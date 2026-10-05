@@ -129,6 +129,7 @@ img{display:block;width:100%;height:auto}
 .access b{font-family:"Shippori Mincho",serif;font-size:17px;letter-spacing:.1em;font-weight:600}
 
 footer{background:var(--wine-deep);color:rgba(248,240,229,.6);text-align:center;font-size:11px;letter-spacing:.1em;padding:28px 0 100px}
+.foot__hp{display:block;width:max-content;margin:0 auto 18px;font-family:"Noto Sans JP",sans-serif;font-size:13px;color:var(--ivory);text-decoration:none;border-bottom:1px solid rgba(196,154,83,.7);padding-bottom:2px}
 
 /* sticky */
 .sticky{position:fixed;left:12px;right:12px;bottom:12px;z-index:10;opacity:0;pointer-events:none;transition:opacity .3s}
@@ -304,7 +305,7 @@ footer{background:var(--wine-deep);color:rgba(248,240,229,.6);text-align:center;
 </section>
 </div>
 
-<footer class="en">© KasuthijoMion Ballet</footer>
+<footer><a class="foot__hp" href="https://aileinfo23-source.github.io/kasuthijomion-ballet/">教室のホームページ</a><span class="en">© KasuthijoMion Ballet</span></footer>
 <div class="sticky"><a class="btn" href="https://lin.ee/QQYPTqB">LINEで体験・相談</a></div>
 <script>
 (function(){var s=document.querySelector('.sticky');function f(){s.classList.toggle('is-on',window.scrollY>window.innerHeight*0.7)}window.addEventListener('scroll',f,{passive:true});f()})();
